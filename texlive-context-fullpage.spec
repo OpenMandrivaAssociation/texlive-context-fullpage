@@ -1,3 +1,9 @@
+# revision 23167
+# category ConTeXt
+# catalog-ctan /macros/context/contrib/context-fullpage
+# catalog-date 2011-01-27 09:54:35 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-context-fullpage
 Version:	20110127
 Release:	1
@@ -46,6 +52,7 @@ and adds a styling parameter, given in the \usemodule command.
 %{_texmfdistdir}/tex/context/third/fullpage/t-fullpage.mkiv
 %doc %{_texmfdistdir}/doc/context/third/fullpage/README
 %doc %{_texmfdistdir}/doc/context/third/fullpage/fullpage-doc.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ and adds a styling parameter, given in the \usemodule command.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
