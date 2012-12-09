@@ -48,3 +48,17 @@ and adds a styling parameter, given in the \usemodule command.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110127-2
++ Revision: 750496
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110127-1
++ Revision: 718131
+- texlive-context-fullpage
+- texlive-context-fullpage
+- texlive-context-fullpage
+- texlive-context-fullpage
+
