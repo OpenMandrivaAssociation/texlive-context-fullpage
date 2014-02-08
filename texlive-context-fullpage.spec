@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-context-fullpage
 Version:	20110127
-Release:	2
+Release:	3
 Summary:	Overfull pages with ConTeXt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-fullpage
