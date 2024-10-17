@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	Overfull pages with ConTeXt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-fullpage
+URL:		https://www.ctan.org/tex-archive/macros/context/contrib/context-fullpage
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-fullpage.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-fullpage.doc.r%{version}.tar.xz
